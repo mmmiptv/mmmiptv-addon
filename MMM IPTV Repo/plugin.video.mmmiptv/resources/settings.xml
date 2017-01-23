@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<settings>
+   <category label="22">
+        <setting label="23" type="text" id="username" default="" visible="true" />
+   	 	<setting label="24" type="text" id="spassword" default="" visible="true" />
+   	 	<setting label="25" type="text" id="adult" default="no" visible="true" />
+
+    </category>
+
+ 
+    <category label="33001">
+		<setting label="30000" type="text" id="portal_name_1" default="My Account" visible="false" />
+        <setting label="30001" type="enum" id="portal_server_1" values="Secure Server" default="2" />
+   	 	<setting label="30002" type="text" id="portal_mac_1" default="00:00:00" visible="false" />
+   	 	<setting type="sep"/>		
+   	 	<setting type="sep"/>   	 	
+   	 	<setting label="30009" type="bool" id="send_serial_1" default="true" />
+   	 	<setting label="30014" type="bool" id="custom_serial_1" default="true" visible="false" />
+   	 	 <setting type="sep"/>
+        <setting label="30020" type="number" id="vodpages_1" default="10" />
+   	 	
+    </category>
+    
+    <category label="32002">
+    	<setting label="30007" type="bool" id="parental" default="true"/>
+    	<setting label="30006" type="text" id="ppassword" option="hidden" default="1234"/>
+    </category>
+
+    	
+</settings>

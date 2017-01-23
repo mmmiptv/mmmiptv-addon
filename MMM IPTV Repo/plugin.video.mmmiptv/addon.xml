@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="plugin.video.mmmiptv" name="[B][I][COLOR yellow]MMM[/COLOR][/I][/B] [COLOR white] IPTV[/COLOR]" version="1.1.0" provider-name="MMM IPTV">
+    <requires>
+		<import addon="xbmc.python" version="2.14.0"/>
+	</requires>
+	<extension point="xbmc.python.pluginsource" library="addon.py">
+		<provides>video</provides>
+	</extension>
+	<extension point="xbmc.service" library="server" start="startup" />
+	<extension point="xbmc.addon.metadata">
+		<platform>all</platform>
+		<summary lang="en">Jazz Mann IPTV</summary>
+		<description lang="en"></description>
+		<license>GNU General Public License, v2</license>
+		<language></language>
+		<forum></forum>
+
+
+	</extension>
+</addon>
